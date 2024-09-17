@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #1a73e8; /* Adding a border to the profile image */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+    color: #333;
+}
+
+.title {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 3px solid #1a73e8; /* Updated border color for consistency */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow for better separation */
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact p, .summary p, .education p, .projects p, .social p, .skills ul li, .languages ul li, .passions p {
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+
+p strong {
+    color: #333;
